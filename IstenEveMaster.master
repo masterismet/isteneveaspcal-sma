@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="IstenEveMaster.master.cs"
+    Inherits="IstenEveMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Script/jquery-1.6.4.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function openPopup(url) {
+            window.open(url, "popup_id", "scrollbars,resizable,width=950,height=900");
+        }
+    </script>
+    <link href="Content/Css/IstenEve.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        //var GB_ROOT_DIR = "http://localhost:1044/IstenEve/greybox/";
+        var GB_ROOT_DIR = "http://www.isteneve.com/greybox/";
+    </script>
+    <script type="text/javascript" src="greybox/AJS.js"></script>
+    <script type="text/javascript" src="greybox/AJS_fx.js"></script>
+    <script type="text/javascript" src="greybox/gb_scripts.js"></script>
+    <link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="bizeulasin">
+        <a href="IletisimPopup.aspx" class="bizeulasin cboxElement" rel="gb_page_center[640, 480]">
+            <img src="Content/Images/Site/bize_ulasin.gif" width="40" height="113">
+        </a>
+    </div>
+
+    <form id="form1" runat="server">
+    <div class="tepe">
+        <div class="logo">
+            <img src="Content/Images/Site/logo.png" />
+        </div>
+        <div class="menu">
+            <div class="menuic">
+                <div class="menusol">
+                </div>
+                <div class="menuorta">
+                    <div class="menuelemandis">
+                        <a href="Default.aspx" class="menulink">ana sayfa</a></div>
+                    <div class="menuayrac">
+                        |</div>
+                    <div class="menuelemandis">
+                        <a href="Ilanlar-Isveren.aspx" class="menulink">işveren ilanları</a></div>
+                    <div class="menuayrac">
+                        |</div>
+                    <div class="menuelemandis">
+                        <a href="Ilanlar-Is-Arayan.aspx" class="menulink">iş arayanlar</a></div>
+                    <div class="menuayrac">
+                        |</div>
+                    <div class="menuelemandis">
+                        <a href="IlanVerKategoriSec.aspx" class="menulink">ilan ver</a></div>
+                    <div class="menuayrac">
+                        |</div>
+                    <div class="menuelemandis">
+                        <a href="IlanAra.aspx" class="menulink">ilan ara</a></div>
+                    <div class="menuayrac">
+                        |</div>
+                    <div class="menuelemandis">
+                        <a href="Iletisim.aspx" class="menulink">iletişim</a></div>
+                </div>
+                <div class="menusag">
+                </div>
+            </div>
+        </div>
+    </div>
+        <asp:ContentPlaceHolder ID="cphSerit" runat="server">
+        </asp:ContentPlaceHolder>
+    <div class="meydan">
+        <asp:ContentPlaceHolder ID="cphMeydan" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="dip">
+        <div style="width: 950px; margin: auto">
+            <table style="width: 950px">
+                <tr>
+                    <td style="width: 200px" valign="top">
+                        <br />
+                        <a href="Default.aspx" class="lgnlink4">» ana sayfa</a><br />
+                        <a href="IstenEveSayfa-2-nasil-calisir.aspx" class="lgnlink4">» nasıl çalışır ?</a><br />
+                        <a href="IlanVerKategoriSec.aspx" class="lgnlink4">» ilan ver</a><br />
+                        <a href="TumIlanlar.aspx" class="lgnlink4">» tüm ilanlar</a><br />
+                        <a href="SifremiUnuttum.aspx" class="lgnlink4">» şifremi gönder</a>
+                    </td>
+                    <td style="width: 200px" valign="top">
+                        <br />
+                        <a href="IstenEveSayfa-1-nedir.aspx" class="lgnlink4">» nedir ?</a><br />
+                        <a href="IstenEveSayfa-3-s-s-s.aspx" class="lgnlink4">» s.s.s.</a><br />
+                        <a href="IlanAra.aspx" class="lgnlink4">» ilan ara</a><br />
+                        <a href="UyeOl.aspx" class="lgnlink4">» yeni üyelik</a><br />
+                        <a href="Iletisim.aspx" class="lgnlink4">» iletişim</a>
+                    </td>
+                    <td valign="top">
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <%--<div>
+        <a href="Default.aspx">Anasayfa</a> | <a href="IlanVerKategoriSec.aspx">İlan Ver</a>
+        | <a href="UyeOl.aspx">Üye Ol</a> | <a href="UyeGiris.aspx">Üye Giriş</a>
+        <br />
+        <a href="UyeFavoriIlanlar.aspx">Favori İlanlar</a> | <a href="UyeFavoriUyeler.aspx">
+            Favori Üyeler</a> | <a href="Mesajlar.aspx">Mesajlar</a> | <a href="Ilanlarim.aspx">
+                İlanlarım</a>
+        <br />
+        <a href="ProfilDuzenle.aspx">Profil Düzenle</a> | <a href="IlanOnay.aspx">İlan Onay
+            İşlemleri</a> |
+        <asp:Button ID="btCikis" runat="server" Text="Çıkış" OnClick="btCikis_Click" />
+    </div>
+    <div>
+        
+    </div>--%>
+    </form>
+</body>
+</html>

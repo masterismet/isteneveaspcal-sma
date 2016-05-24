@@ -1,0 +1,85 @@
+﻿body {margin:0px; background:url('../Images/Site/bg.png')}
+.tepe {width:950px; height:100px; margin:auto}
+.serit {width:100%; height:379px; background:url('../Images/Site/header.png') repeat-x}
+.logo {width:228px; height:57px; float:left; margin-top:20px}
+.menu {width:720px; height:57px; float:left; margin-top:20px}
+.tanitimbg {width:950px; height:399px; margin:auto; background:url('../Images/Site/tanitimbg.png')}
+.menuic {width:648px; height:34px; margin-top:10px; float:right}
+.menusol {width:24px; height:34px; background:url('../Images/Site/menu-sol.png'); float:left}
+.menuorta {width:600px; height:27px; background:url('../Images/Site/menu-orta.png'); float:left; padding-top:7px; text-align:center}
+.menusag {width:24px; height:34px; background:url('../Images/Site/menu-sag.png'); float:left}
+.menulink {font-family:Trebuchet MS; font-size:15px; color:#ffffff; text-decoration:none; font-weight:bold}
+.menulink:hover {font-family:Trebuchet MS; font-size:15px; color:#000000; text-decoration:none; font-weight:bold}
+.menuayrac {text-align:center; width:33px; font-family:Trebuchet MS; font-size:15px; color:#000000; float:left}
+.menuelemandis {float:left}
+.duyuru1 {width:100%; height:121px}
+.ilanduyuru {width:439px; height:92px; float:left; margin-top:30px}
+.login {width:505px; float:right}
+.meydan {width:930px; margin:auto; height:100%; background-color:#ffffff; padding-left:10px; padding-right:10px; padding-bottom:10px}
+.dip {width:100%; height:200px; background-color:#544634}
+.lgn1 {width:91px; height:19px; text-align:center; background:url('../Images/Site/lgn1.png'); float:left; margin-left:5px; padding-top:1px}
+.lgn1:hover {width:91px; height:19px; text-align:center; background:url('../Images/Site/lgn2.png'); float:left; margin-left:5px; padding-top:1px}
+
+.lgn2 {width:91px; height:19px; text-align:center; background:url('../Images/Site/lgn2.png'); float:left; margin-left:5px; padding-top:1px}
+.lgn2:hover {width:91px; height:19px; text-align:center; background:url('../Images/Site/lgn1.png'); float:left; padding-top:1px}
+
+.lgnlink {font-family:Trebuchet MS; font-size:12px; text-decoration:none; color:#ffffff}
+.lgnlink:hover {font-family:Trebuchet MS; font-size:12px; text-decoration:none; color:#b3b4ad}
+
+.lgnlink4 {font-family:Trebuchet MS; font-size:16px; text-decoration:none; color:#ffffff}
+.lgnlink4:hover {font-family:Trebuchet MS; font-size:16px; text-decoration:none; color:#b3b4ad}
+
+.lgnlink2 {font-family:Trebuchet MS; font-size:12px; text-decoration:none; color:#544634}
+.lgnlink2:hover {font-family:Trebuchet MS; font-size:12px; text-decoration:none; color:#000000}
+
+.lgnlink3 {font-family:Trebuchet MS; font-size:15px; text-decoration:none; color:#544634; font-weight:bold}
+.lgnlink3:hover {font-family:Trebuchet MS; font-size:15px; text-decoration:none; color:#000000; font-weight:bold}
+
+.loginayrac {width:100%; height:2px; background:url('../Images/Site/loginayrac.png')}
+
+.kutucuklar {width:300px; height:25px; font-family: 'Trebuchet MS'; font-size: small; color: #333333; border-style:solid; border-width:1px; border-color:#99CCFF}
+.buyuklar {width:300px; height:75px; font-family: 'Trebuchet MS'; font-size: small; color: #333333; border-style:solid; border-width:1px; border-color:#99CCFF}
+
+.vitringb {width:180px; height:122px; background:url('../Images/Site/vitrinbg.png'); padding-top:30px; text-align:center}
+.clientbox {width:225px; height:193px; background:url('../Images/Site/client-box.png'); padding-top:20px; text-align:center}
+
+.makaleustbilgiler {width:543; height:23px; color:#ffffff; font-family:Trebuchet MS; font-size:12px; background:url('../Images/Site/ilanlarustbg.png') repeat-x; text-align:right; padding-right:7px}
+
+.makaleustbilgiler2 {width:643px; height:26px; color:#ffffff; font-family:Trebuchet MS; font-size:12px; background:url('../Images/makaleustbilgiler2.png') repeat-x; text-align:right; padding-right:7px}
+	#bizeulasin {
+		position: fixed;
+		float: left;
+		width: 40px;
+		height: 113px;
+		z-index: 5;
+		top: 200px;
+		}
+
+
+.style1
+
+        {
+
+            width: 439px;
+
+            height: 92px;
+
+        }
+
+        .style2
+
+        {
+
+            color: #FFFFFF;
+
+        }
+
+
+
+
+
+
+
+
+
+
